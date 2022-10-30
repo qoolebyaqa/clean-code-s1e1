@@ -5,10 +5,10 @@ body {
   font-family: Lato, sans-serif;
 }
 li {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .scheme-wrapper {
   width: 500px;
@@ -41,7 +41,7 @@ input,button{
   display: flex;
 }
 #completed-list, #incomplete-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .add-button, .delete-btn, .state-btn {
@@ -132,14 +132,14 @@ input,button{
 
 /* Edit Task */
 .input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label-input {
-  display:none;
+  display: none;
 }
