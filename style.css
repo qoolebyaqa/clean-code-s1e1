@@ -7,7 +7,8 @@
 li {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .scheme-wrapper {
@@ -19,7 +20,7 @@ input,button{
 .scheme-main {
   width: 100%;
 }
-.scheme-wrapper .link-info {
+.scheme-wrapper > .link-info {
   font-family: fantasy, cursive;
 }
 
@@ -41,11 +42,14 @@ input,button{
 .row-adding {
   display: flex;
 }
-#completed-list, #incomplete-list {
+#completed-list, 
+#incomplete-list {
   margin: 0;
   padding: 0px;
 }
-.add-button, .delete-btn, .state-btn {
+.add-button, 
+.delete-btn, 
+.state-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +59,9 @@ input,button{
   cursor: pointer;
   outline:none;
 }
-.add-button:hover, .delete-btn:hover, .state-btn:hover {
+.add-button:hover, 
+.delete-btn:hover, 
+.state-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -69,7 +75,8 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
-.input-text {
+.input-text, 
+#new-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -108,7 +115,8 @@ input,button{
 .checkbox-input {
   margin: 0 10px;
 }
-.li-action-with .label-input {
+.li-action-with > 
+.label-input {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -127,7 +135,7 @@ input,button{
 }
 
 /* Completed */
-#completed-list .label-input {
+#completed-list > .label-input {
   text-decoration: line-through;
   color: #888;
 }
@@ -137,11 +145,11 @@ input,button{
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode > .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label-input {
+.edit-mode > .label-input {
   display: none;
 }
