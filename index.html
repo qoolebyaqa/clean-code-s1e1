@@ -9,50 +9,50 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <header class="scheme-wrapper">
-      <img src="./eisenhower-matrix.jpg" class="scheme-main" alt="picture of Eisenhower matrix">
-      <a class="link-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <header class="header-scheme">
+      <img src="./eisenhower-matrix.jpg" class="header-scheme__img" alt="picture of Eisenhower matrix">
+      <a class="header-scheme__link-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="user-container">
-      <section id="section-adding">
-        <label for="new-task" class="label-new-task">Add Item</label>
-        <div class="row-adding">
-          <input id="new-task"class="task-input" type="text">
-          <button class="add-button">Add</button>
+      <section id="user-container__adding">
+        <label for="user-container__new-task" class="user-container__label-new-task">Add Item</label>
+        <div class="user-container__row-adding">
+          <input id="user-container__new-task"class="user-container__task-input" type="text">
+          <button class="user-container__add-button">Add</button>
         </div>
       </section>
-      <section id="section-todo">
-        <h3 class="section-tittle">Todo</h3>
-        <ul id="incomplete-list">
-          <li class="li-action-with">
-            <input type="checkbox" class="checkbox-input">
-            <label class="task-input label-input">Pay Bills</label>
-            <input type="text" class="task-input input-text">
-            <button class="state-btn">Edit</button>
-            <button class="delete-btn">
-              <img src="./remove.svg" class="img-btn" alt="button for delete item">
+      <section id="user-container__todo">
+        <h3 class="user-container__todo-tittle">Todo</h3>
+        <ul id="user-container__incomplete-list">
+          <li class="user-container__li-action-with">
+            <input type="checkbox" class="user-container__checkbox-input">
+            <label class="user-container__task-input user-container__label-input">Pay Bills</label>
+            <input type="text" class="user-container__task-input user-container__input-text">
+            <button class="user-container__state-btn">Edit</button>
+            <button class="user-container__delete-btn">
+              <img src="./remove.svg" class="user-container__img-btn" alt="button for delete item">
             </button>
           </li>
-          <li class="edit-mode li-action-with">
-            <input type="checkbox" class="checkbox-input">
-            <label class="task-input label-input">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task-input input-text">
-            <button class="state-btn">Save</button>
-            <button class="delete-btn">
-              <img src="./remove.svg" class="img-btn" alt="button for delete item">
+          <li class="user-container__edit-mode user-container__li-action-with">
+            <input type="checkbox" class="user-container__checkbox-input">
+            <label class="user-container__task-input user-container__label-input">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="user-container__task-input user-container__input-text">
+            <button class="user-container__state-btn">Save</button>
+            <button class="user-container__delete-btn">
+              <img src="./remove.svg" class="user-container__img-btn" alt="button for delete item">
             </button>
           </li>
         </ul>
       </section>
-      <section id="section-completed">
+      <section id="user-container__completed">
         <h3>Completed</h3>
-        <ul id="completed-list">
-          <li class="li-action-with"><input type="checkbox" class="checkbox-input" checked>
-            <label class="task-input label-input">See the Doctor</label>
-            <input type="text" class="task-input input-text">
-            <button class="state-btn">Edit</button>
-            <button class="delete-btn">
-              <img src="./remove.svg" class="img-btn" alt="button for delete item">
+        <ul id="user-container__completed-list">
+          <li class="user-container__li-action-with"><input type="checkbox" class="user-container__checkbox-input" checked>
+            <label class="user-container__task-input user-container__label-input">See the Doctor</label>
+            <input type="text" class="user-container__task-input user-container__input-text">
+            <button class="user-container__state-btn">Edit</button>
+            <button class="user-container__delete-btn">
+              <img src="./remove.svg" class="user-container__img-btn" alt="button for delete item">
             </button>
           </li>
         </ul>
