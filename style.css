@@ -24,8 +24,8 @@ input,button{
 }
 
 @media (max-width:768px) {
-.scheme-wrapper { text-align: center;
-}
+  .scheme-wrapper { text-align: center;
+  }
 }
 .user-container {
   display: block;
